@@ -30,13 +30,18 @@ public class LogicalOperator {
 		System.out.println(5>3 || 1>4);
 		System.out.println(2>3 || 1>4);
 		
+		
+		int a=7,b=9;
 		System.out.println("-----------------Logical NOT !-------------");
 		System.out.println(!true);
 		System.out.println(!false);
 		
 		System.out.println("-----------------Real Time Example-------------");
-		System.out.println(4 != 4);
-		System.out.println(2 != 8);
+		System.out.println(!(a>b));
+		System.out.println(!(b>a));
+		
+		
+		
 	}
 
 }
