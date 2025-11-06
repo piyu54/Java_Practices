@@ -16,11 +16,11 @@ public class AssignmentOperator {
 		System.out.println("modulus is " + "a" + "=" + a + "%" + 10 + "=" + (a %= 10));
 
 		System.out.println("--------------------");
-		System.out.println(a += b);// addition a+b=14
-		System.out.println(a -= b);// sub a-b= 14-9=5
-		System.out.println(a /= b);
-		System.out.println(a *= b);
-		System.out.println(a %= b);
+		System.out.println("Addition of " + "a+b" + "=" + a + "+" + b + "=" + (a += b));// addition a+b=14
+		System.out.println("Sub of " + "a-b" + "=" + a + "-" + b+ "=" + (a -= b));// sub a-b= 14-9=5
+		System.out.println("Multi of " + "a*b" + "=" + a + "*" + b + "=" + (a /= b));
+		System.out.println("divi of " + "a/b" + "=" + a + "/" + b + "=" + (a *= b));
+		System.out.println("modulus of " + "a%b" + "=" + a + "%" + b + "=" + (a %= b));
 
 	}
 
