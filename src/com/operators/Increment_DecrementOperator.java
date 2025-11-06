@@ -5,6 +5,7 @@ public class Increment_DecrementOperator {
 	public static void main(String[] args) {
 		
 		System.out.println("---------------Increment/Decrement Operator");
+		//post increment/decrement
 		int a=9;
 		a++;//10
 		System.out.println(a++);//11
@@ -21,8 +22,9 @@ public class Increment_DecrementOperator {
 		System.out.println(a);
 		//final answer is an 9
 		
-		//same as --a ++a
-		
+		/*same as --a ++a
+		pre increment/decrement
+		///*/
 		int b=20;
 		System.out.println(++b);//21
 		System.out.println(b++);//22
