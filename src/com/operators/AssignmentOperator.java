@@ -9,12 +9,13 @@ public class AssignmentOperator {
 		int b = 9;
 
 		System.out.println("= Assignment operator");
-		System.out.println("Addition is " + "a" + "=" + a +"+"+ 10 + "=" + (a += 10));// a=a+10 = 15
-		System.out.println(a -= 10);// a=a-10= 15-10=5
-		System.out.println(a *= 10);
-		System.out.println(a /= 10);
-		System.out.println(a %= 10);
+		System.out.println("Addition is " + "a" + "=" + a + "+" + 10 + "=" + (a += 10));// a=a+10 = 15
+		System.out.println("Sub is " + "a" + "=" + a + "-" + 10 + "=" + (a -= 10));//
+		System.out.println("Multi is " + "a" + "=" + a + "*" + 10 + "=" + (a *= 10));
+		System.out.println("divi is " + "a" + "=" + a + "/" + 10 + "=" + (a /= 10));
+		System.out.println("modulus is " + "a" + "=" + a + "%" + 10 + "=" + (a %= 10));
 
+		System.out.println("--------------------");
 		System.out.println(a += b);// addition a+b=14
 		System.out.println(a -= b);// sub a-b= 14-9=5
 		System.out.println(a /= b);
