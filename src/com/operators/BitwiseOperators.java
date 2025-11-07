@@ -8,7 +8,7 @@ public class BitwiseOperators {
 		// ...512 256 128 64 32 16 8 4 2 1
 
 		System.out.println("---------Bitwise Operator----------");
-		
+		System.out.println("Decimal to Binary");
 		int a=125;
 		
 		System.out.println(Integer.toBinaryString(a));
