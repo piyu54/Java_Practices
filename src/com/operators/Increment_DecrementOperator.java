@@ -37,7 +37,9 @@ public class Increment_DecrementOperator {
 		System.out.println(b--);//19
 		System.out.println(b--);//18
 		System.out.println(b++);//19
-		System.out.println(b);//19
+		System.out.println(b++);//20
+		System.out.println(b++);//21
+		System.out.println(b);//
 	}
 
 }
