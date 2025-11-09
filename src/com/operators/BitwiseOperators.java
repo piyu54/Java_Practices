@@ -28,7 +28,7 @@ public class BitwiseOperators {
 		System.out.println(14 | 43);
 		
 		//
-		System.out.println();
+		System.out.println(12&15);
 		System.out.println();
 /*	12&15
     11|13&12
