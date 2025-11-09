@@ -26,6 +26,17 @@ public class BitwiseOperators {
 
 		System.out.println(4 | 23);
 		System.out.println(14 | 43);
+		
+		
+/*	12&15
+    11|13&12
+    17&7&49
+    XOR
+    */
+		
+		System.out.println("Operations");
+		System.out.println(12&15);
+		
 	}
 
 }
