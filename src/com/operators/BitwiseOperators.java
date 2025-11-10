@@ -93,6 +93,13 @@ public class BitwiseOperators {
 		 
 		 System.out.println("-------------(<< left shift)-------------");
 		 System.out.println(4<<2);
+		 System.out.println(14<<5);
+		 
+
+		 System.out.println("-------------(>> right shift)-------------");
+		 System.out.println(4>>2);
+		 System.out.println(14>>5);
+		 System.out.println(2>>3);
 
 	}
 
