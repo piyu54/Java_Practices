@@ -73,6 +73,12 @@ public class BitwiseOperators {
 		 Bits
 		 5 ^ 3 = 6*/
 		 System.out.println("XOR");
+		 /*rule
+		  * 	0 0 0
+		  * 	1 0 1
+		  * 	0 1 1
+		  * 	1 1 0
+		 	*/	
 		 System.out.println(2^4);
 	}
 
