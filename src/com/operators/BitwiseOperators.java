@@ -27,9 +27,6 @@ public class BitwiseOperators {
 		System.out.println(4 | 23);
 		System.out.println(14 | 43);
 		
-		//
-		System.out.println(12&15);
-		System.out.println();
 /*	12&15
     11|13&12
     17&7&49
@@ -38,8 +35,35 @@ public class BitwiseOperators {
 		
 		System.out.println("Operations");
 		System.out.println(12&15);
+		/*00001100 (12) 00001111(15) rule 1 & 1 = 1, else 0  
+		 *  00001100   = 12*/
+		
+		
 		System.out.println(11|13&12);
+		/*13	00001101
+          12	00001100
+      (13 & 12) 00001100  = 12
+ 		OR (|): 1 | 0 = 1, 1 | 1 = 1
+ 		
+ 				00001011
+ 				00001100
+
+  				00001111  = 15
+ */
 		System.out.println(17&7&49);
+		/*(17 & 7) & 49
+		 *
+	17       00010001 
+	7        00000111 
+	         00000001 = 1
+	         
+	        rule 1 & 1 = 1, else 0  
+		1	00000001
+		49	00110001
+		    00000001 = 1
+
+		 */
+
 		
 	}
 
