@@ -34,6 +34,7 @@ public class BitwiseOperators {
     */
 		
 		System.out.println("Operations");
+		System.out.println("First");
 		System.out.println(12&15);
 		/*00001100 (12) 00001111(15) rule 1 & 1 = 1, else 0  
 		 *  00001100   = 12*/
