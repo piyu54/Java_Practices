@@ -38,7 +38,7 @@ public class BitwiseOperators {
 		/*00001100 (12) 00001111(15) rule 1 & 1 = 1, else 0  
 		 *  00001100   = 12*/
 		
-		
+		System.out.println("Second ");
 		System.out.println(11|13&12);
 		/*13	00001101
           12	00001100
