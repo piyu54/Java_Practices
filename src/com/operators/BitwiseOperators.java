@@ -17,12 +17,12 @@ public class BitwiseOperators {
 
 		System.out.println(Integer.toBinaryString(a));
 
-		System.out.println("Operation with &");
+		System.out.println("-------------Operation with &---------------");
 
 		System.out.println(4 & 23);
 		System.out.println(14 & 43);
 
-		System.out.println("Operation with |");
+		System.out.println("-------------Operation with |-------------");
 
 		System.out.println(4 | 23);
 		System.out.println(14 | 43);
@@ -34,12 +34,12 @@ public class BitwiseOperators {
     */
 		
 		System.out.println("Operations");
-		System.out.println("First");
+		System.out.println("-------------First-------------");
 		System.out.println(12&15);
 		/*00001100 (12) 00001111(15) rule 1 & 1 = 1, else 0  
 		 *  00001100   = 12*/
 		
-		System.out.println("Second ");
+		System.out.println("-------------Second-------------");
 		System.out.println(11|13&12);
 		
 		/*In Java, & has higher precedence than |
@@ -53,7 +53,7 @@ public class BitwiseOperators {
 
   				00001111  = 15
  */
-		System.out.println("Third");
+		System.out.println("-------------Third-------------");
 		/*(17 & 7) & 49
 		 *
 	17       00010001 
@@ -72,7 +72,7 @@ public class BitwiseOperators {
 		 /*Bitwise XOR
 		 Bits
 		 5 ^ 3 = 6*/
-		 System.out.println("XOR");
+		 System.out.println("-------------XOR-------------");
 		 /*rule
 		  * 	0 0 0
 		  * 	1 0 1
