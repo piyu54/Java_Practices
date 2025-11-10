@@ -41,7 +41,9 @@ public class BitwiseOperators {
 		
 		System.out.println("Second ");
 		System.out.println(11|13&12);
-		/*13	00001101
+		
+		/*In Java, & has higher precedence than |
+		 * 13	00001101
           12	00001100
       (13 & 12) 00001100  = 12
  		OR (|): 1 | 0 = 1, 1 | 1 = 1
@@ -67,6 +69,9 @@ public class BitwiseOperators {
 		 */
 		 System.out.println(17&7&49);
 		
+		 /*Bitwise XOR
+		 Bits
+		 5 ^ 3 = 6*/
 	}
 
 }
