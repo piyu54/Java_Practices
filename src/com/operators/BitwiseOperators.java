@@ -80,6 +80,20 @@ public class BitwiseOperators {
 		  * 	1 1 0
 		 	*/	
 		 System.out.println(2^4);
+		 System.out.println(5^8);
+		 System.out.println(5^5);
+		 System.out.println(6^4);
+		 
+		 System.out.println("-------------( ~ NOT single operand(unary)-------------");
+		 
+		 int p=2;
+		 int v=-8;
+		 System.out.println(~p);//1 se up but in minus
+		 System.out.println(~v);//1 se down but in plus
+		 
+		 System.out.println("-------------(<< left shift)-------------");
+		 System.out.println(4<<2);
+
 	}
 
 }
