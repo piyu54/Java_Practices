@@ -50,7 +50,7 @@ public class BitwiseOperators {
 
   				00001111  = 15
  */
-		System.out.println(17&7&49);
+		System.out.println("Third");
 		/*(17 & 7) & 49
 		 *
 	17       00010001 
@@ -61,9 +61,10 @@ public class BitwiseOperators {
 		1	00000001
 		49	00110001
 		    00000001 = 1
+		   
 
 		 */
-
+		 System.out.println(17&7&49);
 		
 	}
 
