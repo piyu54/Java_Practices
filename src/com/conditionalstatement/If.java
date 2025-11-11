@@ -1,9 +1,12 @@
 package com.conditionalstatement;
 
-public class If_Else {
+public class If {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		if(22>18)
+		{
+			System.out.println("You can vote");
+		}
 
 	}
 
