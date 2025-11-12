@@ -19,7 +19,7 @@ public class If {
 		
 		int age2=5;
 		
-		if(age2>=18) //here the consition is false thats why if block didnt execute
+		if(age2>=18) //here the condition is false thats why if block didn't execute
 		{
 			System.out.println("you can vote 2");
 		}
