@@ -1,6 +1,6 @@
 package com.conditionalstatement;
 
-public class Nested_if_else {
+public class Nested_if {
 
 	public static void main(String[] args) {
 		if(true)
@@ -9,10 +9,7 @@ public class Nested_if_else {
 			{
 				System.out.println("Hie");
 			}
-			else
-			{
-				System.out.println("by");
-			}
+			
 		}
 		else
 		{
