@@ -43,11 +43,11 @@ public class If_else_if {
 		
 		int age = 190;
 		
-		if(age>=18 && age<=150)
+		if(age>=18 && age<=150)//true false = false
 		{
 			System.out.println("you can vote");
 		}
-		else if(age>150)
+		else if(age>150)//this is true bec age is greater than 150 
 		{
 			System.out.println("you cant vote you are over age ");
 		}
@@ -55,6 +55,7 @@ public class If_else_if {
 		{
 			System.out.println("you cant vote first be an 18+");
 		}
+		//here else if block execute
 	}
 
 }
