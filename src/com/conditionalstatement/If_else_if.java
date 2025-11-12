@@ -1,7 +1,7 @@
 package com.conditionalstatement;
 
 public class If_else_if {
-
+//if else ladder
 	public static void main(String[] args) {
 
 
