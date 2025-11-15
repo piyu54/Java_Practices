@@ -3,6 +3,7 @@ package com.conditionalstatement;
 public class AllExamples {
 
 	public static void main(String[] args) {
+		//if else
 		int doorCode = 1337;
 
 		if (doorCode == 1337) {
