@@ -56,6 +56,8 @@ public class AllExamples {
 		} else {
 		  System.out.println(myNum2 + " is odd");
 		} 
+		
+		//if else if
 		int temperature = 30;
 
 		if (temperature < 0) {
