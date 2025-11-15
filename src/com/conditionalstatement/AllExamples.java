@@ -68,6 +68,7 @@ public class AllExamples {
 		  System.out.println("It's warm.");
 		} 
 		
+		//if else
 		boolean isLoggedIn = true;
 		boolean isAdmin = false;
 		int securityLevel = 3; // 1 = highest
