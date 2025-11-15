@@ -12,6 +12,7 @@ public class AllExamples {
 		  System.out.println("Wrong code. The door remains closed.");
 		}
 		
+		//if else if 
 		int myNum = 10; // Is this a positive or negative number?
 
 		if (myNum > 0) {
