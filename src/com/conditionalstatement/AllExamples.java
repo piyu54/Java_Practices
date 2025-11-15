@@ -48,7 +48,7 @@ public class AllExamples {
 		  System.out.println("Not old enough to vote.");
 		}
 		
-		
+		//if else
 		int myNum2 = 5;
 
 		if (myNum2 % 2 == 0) {
