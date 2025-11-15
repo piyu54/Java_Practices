@@ -23,6 +23,7 @@ public class AllExamples {
 		  System.out.println("The value is 0.");
 		}
 		
+		//if else
 		int myAge = 25;
 		int votingAge = 18;
 
