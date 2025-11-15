@@ -32,7 +32,7 @@ public class AllExamples {
 		} else {
 		  System.out.println("Not old enough to vote.");
 		}
-		
+		//nested if
 		int age = 20;
 		boolean isCitizen = true;
 
