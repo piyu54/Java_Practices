@@ -44,6 +44,15 @@ public class AllExamples {
 		} else {
 		  System.out.println("Not old enough to vote.");
 		}
+		
+		
+		int myNum2 = 5;
+
+		if (myNum2 % 2 == 0) {
+		  System.out.println(myNum2 + " is even");
+		} else {
+		  System.out.println(myNum2 + " is odd");
+		} 
 
 	}
 
