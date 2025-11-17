@@ -1,7 +1,7 @@
 package com.conditionalstatement;
 
 public class SwitchExample {
-
+//	1. Write a Java program that takes an integer (1–7) and prints the corresponding day name (e.g., 1 → Monday)
 	public static void main(String[] args) {
 		 int day = 3;
 
