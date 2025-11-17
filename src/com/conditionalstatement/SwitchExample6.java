@@ -2,7 +2,7 @@ package com.conditionalstatement;
 
 public class SwitchExample6 {
 	public static void main(String[] args) {
-
+//3. Accept two numbers and an operator (+, -, *, /) from the user and perform the operation using a switch case.
 		char operation = '*';
 
 		switch (operation) {
