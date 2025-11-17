@@ -21,7 +21,7 @@ public class SwitchExample4 {
 
 		default:
 			System.out.println("you enter wrong name");
-			break;
+			
 
 		}
 	}

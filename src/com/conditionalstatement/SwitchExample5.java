@@ -23,7 +23,7 @@ public class SwitchExample5 {
 			break;
 		default:
 			System.out.println("Enter right first letter ");
-			break;
+			
 		}
 	}
 }

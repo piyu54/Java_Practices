@@ -15,7 +15,7 @@ public class SwitchExample3 {
 
 		default:
 			System.out.println("We wake up");
-			break;
+			
 		}
 
 	}
