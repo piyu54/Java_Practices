@@ -12,7 +12,7 @@ public class For_Loop7 {
 		{
 			sum+=i;
 		}
-		System.out.println("Sum of first 10 natural numbers: "+sum);
+		System.out.println("Sum of even numbers from 1 to 100: "+sum);
 
 	}
 
