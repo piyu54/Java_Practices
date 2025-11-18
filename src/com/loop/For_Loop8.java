@@ -10,7 +10,7 @@ public class For_Loop8 {
 		{
 			sum+=i;
 		}
-		System.out.println("Sum of first odd numbers from 1 to 100: "+sum);
+		System.out.println("Sum of  odd numbers from 1 to 100: "+sum);
 
 	}
 
