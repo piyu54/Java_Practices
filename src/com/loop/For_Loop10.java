@@ -7,6 +7,7 @@ public class For_Loop10 {
 		
 		for(int i=1;i<=50;i+=2)
 		{
+			
 			System.out.println(i);
 		}
 
