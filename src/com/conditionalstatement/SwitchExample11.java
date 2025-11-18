@@ -5,15 +5,15 @@ public class SwitchExample11 {
 
 	public static void main(String[] args) {
 
-		int num = 6;
+		int num = 9;
 
 		switch (num % 2) {
-		case 0:
-			System.out.println(num + " is Even");
+		case 1:
+			System.out.println(num + " is odd");
 			break;
 
-		case 1:
-			System.out.println(num + " is Odd");
+		default:
+			System.out.println(num + " is even");
 			break;
 
 		}
