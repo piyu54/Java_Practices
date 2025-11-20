@@ -6,6 +6,13 @@ public class Break_Continue {
 
 		for(int i=1;i<=100;i++)
 		{
+			if(i > 25 && i < 76) 
+			{
+				continue;
+				
+			}
+			System.out.println(i);
+			
 			
 		}
 		
