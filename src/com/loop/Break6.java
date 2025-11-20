@@ -5,8 +5,8 @@ public class Break6 {
 	public static void main(String[] args) {
 
 		for (int i = 1; i <= 500; i++) {
-			
-			if (i %37==0) {
+
+			if (i % 37 == 0) {
 				break;
 			}
 			System.out.println(i);
