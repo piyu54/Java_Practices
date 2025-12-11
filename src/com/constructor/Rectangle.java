@@ -13,7 +13,7 @@ public class Rectangle {
 	}
 
 	void area() {
-		System.out.println("Area of Rectangle " + length * width);
+		System.out.println("Area of Rectangle is " + length * width);
 	}
 
 	public static void main(String[] args) {
