@@ -9,11 +9,11 @@ public class Rectangle {
 	Rectangle() {
 		this.length = 10;
 		this.width = 5;
-		area();
+		this.area();
 	}
 
 	void area() {
-		System.out.println("Area of Rectangle " +length * width);
+		System.out.println("Area of Rectangle " + length * width);
 	}
 
 	public static void main(String[] args) {
