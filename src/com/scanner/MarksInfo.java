@@ -21,7 +21,7 @@ public class MarksInfo {
 
 		float total = math + english + cs + history + bio;
 
-		System.out.println("The total subject is " + total);
+		System.out.println("The total marks is " + total);
 
 		float percentage = (total / 500) * 100;
 
