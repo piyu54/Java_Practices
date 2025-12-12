@@ -3,7 +3,7 @@ package com.constructor;
 public class Rectangle {
 //Create a class Rectangle with a non-parameterized constructor that sets length = 10 and width = 5. Print the area.
 
-	//ex
+	//e
 	int length;
 	int width;
 
