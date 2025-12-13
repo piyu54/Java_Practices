@@ -49,6 +49,17 @@ public class AllScannerExample {
 		System.err.println("my gender is " + course);
 		System.err.println("my Date of year " + address);
 		System.err.println("my Date of year " + marks);
+		
+		
+		s.next();
+		s.nextByte();
+		s.nextDouble();
+		s.nextFloat();
+		s.nextInt();
+		s.nextLong();
+		s.nextShort();
+		s.hasNext();
+		s.nextLine();
 	}
 
 }
