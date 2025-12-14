@@ -21,11 +21,12 @@ public class Car {
 	{
 		this.model=model;
 		this.price=price;
+		this.CarInfo();
 	}
 	
 	void CarInfo()
 	{
-		System.out.println("Car Information");
+	
 		System.out.println("Car Model Name is :"+model);
 		System.out.println("Car Price is :"+price);
 	}
