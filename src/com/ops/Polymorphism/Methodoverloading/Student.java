@@ -6,44 +6,38 @@ only id
 id and name*/
 public class Student {
 
-	
-	void studentInfo()
-	{
+	void studentInfo() {
 		System.out.println("Default Const");
 	}
-	
-	void studentInfo(int id)
-	{
+
+	void studentInfo(int id) {
 		System.out.println(id);
 	}
-	
-	void studentInfo(int id,String name)
-	{
-		 System.out.println(id +" "+name);
+
+	void studentInfo(int id, String name) {
+		System.out.println(id + " " + name);
 	}
-	
+
 	public static void main(String[] args) {
-		
+
 		Student s = new Student();
 		s.studentInfo();
 		s.studentInfo(101);
 		s.studentInfo(101, "sakshi");
-		
-		s.display(108);
-		s.display(100, "vikas");
+
+		Student.display(108);
+		Student.display(100, "vikas");
 	}
-	
-	/*8. Overload a static method print() with:
-one parameter
-two parameters*/
-	
-	
-	static void display(int id)
-	{
-		System.out.println(id);
+
+	/*
+	 * 8. Overload a static method print() with: one parameter two parameters
+	 */
+
+	static void display(int id) {
+		System.out.println("one parameter: " + id);
 	}
-	static void display(int id,String name)
-	{
-		System.out.println(id+" "+name);
+
+	static void display(int id, String name) {
+		System.out.println("one parameter: " + id + " " + name);
 	}
 }

@@ -5,19 +5,18 @@ area of rectangle*/
 public class Area {
 
 	
-	void areaofcircle(int radius)
-	{
-	
-	
-	}
-	
-	void areaofRec()
-	{
-		
-	}
-	
+	 void area(double radius) {
+	        System.out.println("Area of Circle: " + (3.14 * radius * radius));
+	    }
+
+	    void area(int length, int breadth) {
+	        System.out.println("Area of Rectangle: " + (length * breadth));
+	    }
 	
 	public static void main(String[] args) {
 		
+		Area a = new Area();
+		a.area(66);
+		a.area(13, 10);
 	}
 }
