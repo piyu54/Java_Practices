@@ -9,20 +9,20 @@ public class Login {
 	
 	void login(String username)
 	{
-		System.out.println(username);
+		System.out.println("Username is: "+username);
 	}
 	
 	void login(String username,String password)
 	{
-		System.out.println(username);
-		System.out.println(password);
+		System.out.println("Username is: " +username +" And Password is: "+password);
+		
 	}
 	
 	public static void main(String[] args) {
 		
 		Login l = new Login();
 		l.login("piyu");
-		l.login("piyali", "abcccccc");
+		l.login("piyu", "piyu123@.");
 	}
 
 }
