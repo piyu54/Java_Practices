@@ -1,4 +1,4 @@
-package com.task;
+package com.referenceexamples;
 
 public class Payment {
 
