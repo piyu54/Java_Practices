@@ -4,11 +4,11 @@ public class Application {
 
 	public static void main(String[] args) {
 
-		// Payment p=new Payment();
-//		   p.reward();
-//		   p.checkBal();
+		 Payment p=new Payment();
+		   p.reward();
+		   p.checkBal();
 
-		Payment p;
+//		Payment p;
 		p = new Gpay();
 		p.reward();
 		p.checkBal();
