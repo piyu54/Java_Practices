@@ -1,0 +1,10 @@
+package com.referenceexamples;
+
+public class Circle extends Shape{
+
+	
+	@Override
+	void area() {
+		System.out.println("Area of Circle");
+	}
+}
