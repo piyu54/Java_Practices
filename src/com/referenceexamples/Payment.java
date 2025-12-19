@@ -2,6 +2,8 @@ package com.referenceexamples;
 
 public class Payment {
 
+//	int sal;
+	
 	void reward() {
 		System.err.println("Rewards for all Bank Applications");
 	}
