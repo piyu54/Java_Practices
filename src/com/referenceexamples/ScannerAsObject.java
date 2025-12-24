@@ -2,7 +2,7 @@ package com.referenceexamples;
 
 public class ScannerAsObject {
 
-	// es ✅ we can take objects using Scanner, but not directly.
+	// we can take objects using Scanner, but not directly.
 
 // Scanner cannot read an object in one go.
 //We use Scanner to read object’s data (fields), then create the object using those values.
