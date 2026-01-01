@@ -18,6 +18,6 @@ public class Book {
 		
 		System.out.println(bookTitle);
 		System.out.println(authorName);
-		System.out.println();
+		System.out.println(bookPrice);
 	}
 }
