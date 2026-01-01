@@ -12,7 +12,7 @@ public class Book {
 	public static void main(String[] args) {
 		
 		Book b = new Book();
-		String bookTitle=b.title="Leadership quality";
+		String bookTitle=b.title="Leadership Quality";
 		String authorName=b.author="Guru Gopal Das";
 		float bookPrice=b.price=149;
 		
