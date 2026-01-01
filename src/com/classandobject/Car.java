@@ -12,7 +12,7 @@ public class Car {
 
 		Car c = new Car();
 		String CarModel = c.model = "BMW";
-		float CarPrice = c.price = 100000;
+		float CarPrice = c.price = 1000000;
 		String CarColor = c.color = "Red";
 
 		System.out.println(CarModel);
