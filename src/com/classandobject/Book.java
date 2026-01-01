@@ -18,6 +18,6 @@ public class Book {
 		
 		System.out.println(bookTitle);
 		System.out.println(authorName);
-		syso
+		System.out.println();
 	}
 }
