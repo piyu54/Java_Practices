@@ -46,7 +46,7 @@ public class Student {
 		float StuPer=s.nextFloat();
 
 		Student st = new Student(StuId, Stuname, StuPer );
-		System.out.println(st.getId()+" "+st.getName()+" "+st.getPerc());
+		System.out.println(st.getId()+"  "+st.getName()+" "+st.getPerc());
 	
 		s.close();
 	}		
