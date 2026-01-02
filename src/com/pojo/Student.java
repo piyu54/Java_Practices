@@ -44,11 +44,10 @@ public class Student {
 		String Stuname=s.next();
 		System.out.println("Enter an student percentage");
 		float StuPer=s.nextFloat();
-		System.out.println("Student id is "+StuId);
-		System.out.println("Student name is "+Stuname);
-		System.out.println("Student name is "+StuPer);
-	}
+
+		Student st = new Student(StuId, Stuname, StuPer );
+		System.out.println(st.getId()+" "+st.getName()+" "+st.getPerc());
 	
-	
-			
+		s.close();
+	}		
 }
