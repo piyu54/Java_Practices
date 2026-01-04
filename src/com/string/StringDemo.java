@@ -4,7 +4,7 @@ public class StringDemo {
 
 	public static void main(String[] args) {
 		
-		//by using String literal (scp immutable(cannot change))
+		//by using String literal (scp immutable(cannot change) inside heap memory)
 		
 //		String s1="java";
 //		String s2="java";
@@ -20,13 +20,22 @@ public class StringDemo {
 //		System.out.println(s1==s3);//reference
 //		System.out.println(s1.equals(s2));//values
 		
+//		
+//		String s1="hello";
+//		String s2=s1+"world";
+//		
+//		System.out.println(s1);
+//		System.out.println(s2);
+//		System.out.println(s1.hashCode());
+//		System.out.println(s2.hashCode());
 		
-		String s1="hello";
-		String s2=s1+"world";
-		
-		System.out.println(s1);
-		System.out.println(s2);
-		
-		
+		//with new keyword
+		String str1 = new String("hello");
+		String str2 = "hello";
+
+		System.out.println(str1.hashCode());
+		System.out.println(str2.hashCode());
+		System.out.println(str1 == str2); // references
+		System.out.println(str1.equals(str2)); // Values
 	}
 }
