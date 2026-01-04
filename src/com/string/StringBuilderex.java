@@ -35,7 +35,50 @@ public class StringBuilderex {
 		System.out.println(s4);
 		
 //		Convert String to StringBuilder and modify it.
+		
+		String name="priya";
+		StringBuilder s5 = new StringBuilder(name);
+		s5.append(" kushwaha");
+		System.out.println(s5);
+		
 //		Count the number of characters using StringBuilder (without length()).
+		
+		StringBuilder s6 = new StringBuilder("piyu");
+		
+		try {
+		for(int i=0;i<s6.charAt(i);i++)
+		{
+			System.out.println(i);
+		}
+		}catch(Exception e)
+		{
+		}
+//		}
+//		 int count = 0;
+//
+//	        try {
+//	            while (true) {
+//	                s6.charAt(count); // keep accessing characters
+//	                count++;
+//	            }
+//	        } catch (Exception e) {
+//	            // exception occurs when index is out of range
+//	        }
+
+//	        System.out.println("Number of characters: " + count);
+		
 //		Check whether the string is palindrome using StringBuilder reverse().
+		
+		String str = "mam";
+
+        StringBuilder sb = new StringBuilder(str);
+        sb.reverse();
+//        System.out.println(sb);
+        if (str.equals(sb.toString())) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not Palindrome");
+        }
+		
 	}
 }
