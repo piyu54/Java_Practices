@@ -32,7 +32,7 @@ public class StringDemo {
 //		System.out.println(s1.equals(s2));//value false
 		
 		
-		//with new keyword
+		//with new keyword(scp+heap)
 //		String str1 = new String("hello");
 //		String str2 = "hello";
 //
@@ -40,5 +40,10 @@ public class StringDemo {
 //		System.out.println(str2.hashCode());
 //		System.out.println(str1 == str2); // references
 //		System.out.println(str1.equals(str2)); // Values
+		
+		String s1=new String("hello");
+		String s2=new String("hello");
+		System.out.println(s1==s2);//ref false
+		System.out.println(s1);
 	}
 }
