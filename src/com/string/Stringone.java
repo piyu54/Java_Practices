@@ -7,7 +7,13 @@ public class Stringone {
 		
 		String name="priya";
 		
+		System.out.println(name.charAt(0));
+		System.out.println(name.charAt(1));
+		System.out.println(name.charAt(2));
+		System.out.println(name.charAt(3));
+		System.out.println(name.charAt(4));
 		
+		System.out.println("----------using forloop-----------");
 		for(int i=0;i<=name.length();i++)
 		{
 			System.out.println(name.charAt(i));
