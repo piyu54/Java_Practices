@@ -20,9 +20,9 @@ public class Example {
 		}
 //		
 
-//		Convert string to uppercase. 
-//		Convert string to lowercase. 
-//		Check whether two strings are equal or not. 
+
+ 
+
 //		Concatenate two strings without using + operator.
 //		Check whether a string contains the word "Java". 
 //		Find the first and last character of a string.
