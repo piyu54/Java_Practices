@@ -23,8 +23,8 @@ public class Example {
 
  
 
-//		Concatenate two strings without using + operator.
-//		Check whether a string contains the word "Java". 
-//		Find the first and last character of a string.
+
+
+
 	}
 }
