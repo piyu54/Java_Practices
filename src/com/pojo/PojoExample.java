@@ -52,7 +52,5 @@ public class PojoExample {
 		return "PojoExample [empid=" + empid + ", name=" + name + ", salary=" + salary + "]";
 	}
 
-	public static void main(String[] args) {
-
-	}
+	
 }
