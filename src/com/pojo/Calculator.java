@@ -1,10 +1,14 @@
 package com.pojo;
 
 import java.util.Scanner;
+//
+//3.Create class Calculator with methods add():
+//add(int a, int b)
+//add(int a, int b, int c)
+//add(double a, double b)
+//Take values using Scanner and show results.
 
 public class Calculator {
-
-	
 	
 	public int add(int a ,int b)
 	{
