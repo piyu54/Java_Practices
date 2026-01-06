@@ -16,7 +16,16 @@ public class StaticExample {
 	 
 	 public static void display()
 	 {
+//		 static int id=101; //not possible
 		 System.out.println("static method");
+	 }
+	 
+	 
+	 //block first line to executed
+	 
+	 static 
+	 {
+		 System.out.println("static block");
 	 }
 	public static void main(String[] args) {
 		
