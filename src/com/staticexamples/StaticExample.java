@@ -9,8 +9,12 @@ public class StaticExample {
 
 	StaticExample(int age) {
 		this.age = age;
+		
 	}
-
+	public void normaldisplay()
+	{
+		System.out.println(age);
+	}
 	// method
 
 	public static void display() {
@@ -27,11 +31,19 @@ public class StaticExample {
 	{
 		System.out.println("non static block");
 	}
+	
+	//inner class
+	
+	public static class inner{
+		
+		
+	}
 
 	public static void main(String[] args) {
 
 		System.out.println(clgname);
 		StaticExample s = new StaticExample(11);
+		s.normaldisplay();
 
 	}
 }
