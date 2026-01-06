@@ -33,7 +33,7 @@ public class StaticExample {
 	}
 	
 	//inner class
-	
+//	try all possibilities
 	public static class inner{
 		
 		
