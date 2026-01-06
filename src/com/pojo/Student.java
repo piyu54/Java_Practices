@@ -47,21 +47,6 @@ public class Student {
 		return "Student [id=" + id + ", name=" + name + ", perc=" + perc + "]";
 	}
 
-	public static void main(String[] args) {
-		
-		Student s= new Student(101,"piyu",92);
-		System.out.println(s);
-//		Scanner s = new Scanner (System.in);
-//		System.out.println("Enter an student id");
-//		int StuId =s.nextInt();
-//		System.out.println("Enter an student name");
-//		String Stuname=s.next();
-//		System.out.println("Enter an student percentage");
-//		float StuPer=s.nextFloat();
-//
-//		Student st = new Student(StuId, Stuname, StuPer );
-//		System.out.println(st.getId()+" "+st.getName()+" "+st.getPerc());
 	
-//		s.close();
-	}		
+		
 }
