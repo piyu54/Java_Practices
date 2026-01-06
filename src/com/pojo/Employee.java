@@ -1,25 +1,32 @@
 package com.pojo;
 
-public class Employee extends Person{
+public class Employee extends Person {
 
-	double sal;
+	private double sal;
 	
-	Employee(String name,int age,double sal)
-	{
-		super(name,age);
-		this.sal=sal;
+
+	Employee() {
+
 	}
-	
-	void display()
-	{
-		System.out.println("Name:"+name+" "+"Age:"+age +" "+"Sal:"+sal);
+
+	Employee(String name, int age, double sal) {
+		super(name, age);
+		this.sal = sal;
 	}
-	
-	public static void main(String[] args) {
-		
-		Employee e = new Employee("piyu",24,55000);
-		e.display();
+
+	public double getSal() {
+		return sal;
 	}
+
+	public void setSal(double sal) {
+		this.sal = sal;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", age=" + age + ", salary=" + sal + "]";
+	}
+
 	
-	
+
 }
