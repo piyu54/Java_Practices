@@ -7,8 +7,8 @@ public class Thread2Main {
 		
 		Thread2 t = new Thread2();
 		t.m1();
-		
-		Thread t2 = new Thread();
+		t.m2();
+		Thread t2 = new Thread(t);
 		t2.start();
 	}
 }
