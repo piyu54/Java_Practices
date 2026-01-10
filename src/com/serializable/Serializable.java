@@ -1,6 +1,7 @@
 package com.serializable;
 
 
+import java.io.File;
 import java.io.FileOutputStream;
 
 import java.io.ObjectOutputStream;
@@ -17,12 +18,18 @@ public class Serializable {
 		
 		oos.writeObject(s);
 		
+	
+		
 		System.out.println("File Created Successfully!!!");
 		
 		oos.close();
 		file.close();
 		
-
+		//delete
+//		File file1 = new File("D:\\c bkp\\kiran\\Student.txt");
+//		file1.delete();
+//		
+//		System.out.println("File deleted Successfully!!!");
 		
 	}
 }
