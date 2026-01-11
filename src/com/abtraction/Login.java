@@ -9,6 +9,6 @@ public abstract class  Login {
 	
 	public void Appname()
 	{
-	System.out.println("ZingApp");	
+	System.out.println("ZingApp!!!");	
 	}
 }
