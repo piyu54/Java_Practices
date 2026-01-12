@@ -1,6 +1,6 @@
 package com.array;
 
-public class Array1 {
+public class ArrayDemo {
 
 	// static way
 
