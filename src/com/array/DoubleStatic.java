@@ -12,3 +12,4 @@ public class DoubleStatic {
 			System.out.println(price[i]);
 	}
 }
+}
