@@ -30,6 +30,12 @@ public class Array1 {
 		marks2[4]=50;
 		
 		System.out.println(marks2[0]);//
+		System.out.println("Iteration");
+		
+		for(int i=0;i<marks2.length;i++)
+		{
+			System.out.println(marks2[i]);
+		}
 	}
 
 }
