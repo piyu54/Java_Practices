@@ -1,0 +1,30 @@
+package com.array;
+
+public class Array1 {
+
+	// static way
+
+	public static void main(String[] args) {
+
+		int[] marks = { 10, 20, 30, 40 };
+
+		System.out.println(marks[0]);// 10
+
+		// iteration
+		for (int i = 0; i < marks.length; i++) {
+			System.out.println(marks[i]);
+		}
+
+		// dynamic way
+
+		int[] marks2 = new int[5];
+		marks2[0]=10;
+		marks2[1]=20;
+		marks2[2]=30;
+		marks2[3]=40;
+		marks2[4]=50;
+		
+		System.out.println(marks2[0]);//
+	}
+
+}
