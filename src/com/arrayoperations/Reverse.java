@@ -1,7 +1,7 @@
 package com.arrayoperations;
 
 public class Reverse {
-
+//Write a program to print array elements in reverse order.
 	public static void main(String[] args) {
 		
 
