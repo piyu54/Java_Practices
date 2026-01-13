@@ -11,11 +11,12 @@ public class Largest {
 
 		for (int i = 0; i < num.length; i++) {
 			if (num[i] > max) {
-				max += num[i];
+				max = num[i];
+				System.out.println(max);
 			}
 
 		}
-		System.out.println(max);
+//		System.out.println(max);
 
 	}
 }
