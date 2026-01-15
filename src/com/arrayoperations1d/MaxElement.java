@@ -5,13 +5,27 @@ public class MaxElement {
 	public static void main(String[] args) {
 		
 		int[] marks = { 10, 20, 30, 40 };
-		double avg = 0;
+		int max = marks[0];
 
 		for (int i = 0; i < marks.length; i++) {
-			avg+=marks[i];
+			if(marks[i]>max)
+			{
+				max=marks[i];
+			}
 			
 		}
-		double avg1=avg/=marks.length;
-		System.out.println("average of elements in a 1D array :"+avg1);
+		
+		System.out.println("maximum element in a 1D array :"+max);
+		
+		System.out.println("----------using for each----------");
+		int max2=marks[0];
+		for (int x : marks) {
+			if(x>max2)
+			{
+				max2=x;
+			}
+		}
+		
+		System.out.println("sum of all elements in a 1D array is :"+max2);
 	}
 }
