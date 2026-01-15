@@ -20,7 +20,7 @@ public class OddEven {
 			}
 		}
 		System.out.println("even"+evencount);
-		System.out.println("odd"+evencount);
+		System.out.println("odd"+oddcount);
 //		
 	}
 }
