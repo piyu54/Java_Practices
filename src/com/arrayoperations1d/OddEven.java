@@ -4,7 +4,7 @@ public class OddEven {
 
 	public static void main(String[] args) {
 
-		int[] num = { 1, 2, 3, 4 ,1,5,7};
+		int[] num = { 1, 2, 3, 4 ,1,5,7,1,2};
 		int evencount=0;
 		int oddcount=0;
 
@@ -19,8 +19,8 @@ public class OddEven {
 				oddcount++;
 			}
 		}
-		System.out.println("even"+evencount);
-		System.out.println("odd"+oddcount);
+		System.out.println("even "+evencount);
+		System.out.println("odd "+oddcount);
 //		
 	}
 }
