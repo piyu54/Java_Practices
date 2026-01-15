@@ -1,6 +1,7 @@
 package com.arrayoperations1d;
 
 //Write a program to declare and initialize a 1D array of integers.
+//Write a program to print all elements of a 1D array.
 public class Array1d {
 	public static void main(String[] args) {
 
