@@ -12,9 +12,10 @@ public class Sum {
 
 		{
 			for (int j = 0; j < arr[i].length; j++) {
-				
+				sum+=arr[i][j];
 			}
-			System.out.println();
+		
 		}
+		System.out.println(sum);
 	}
 }
