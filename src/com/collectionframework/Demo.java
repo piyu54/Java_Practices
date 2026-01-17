@@ -10,5 +10,6 @@ public static void main(String[] args) {
 	l.add("piyu");
 	l.add(24);
 	l.add("Female");
+	l.add("Raisoni College");
 }
 }
