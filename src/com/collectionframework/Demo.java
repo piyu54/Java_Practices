@@ -7,5 +7,7 @@ public class Demo {
 public static void main(String[] args) {
 	
 	ArrayList l = new ArrayList();
+	l.add("piyu");
+	
 }
 }
