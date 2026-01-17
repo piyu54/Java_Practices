@@ -12,5 +12,6 @@ public static void main(String[] args) {
 	l.add("Female");
 	l.add("Raisoni College");
 	l.add("7721057777");
+	System.out.println(l);
 }
 }
