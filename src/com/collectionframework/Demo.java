@@ -8,6 +8,6 @@ public static void main(String[] args) {
 	
 	ArrayList l = new ArrayList();
 	l.add("piyu");
-	
+	l.add(24);
 }
 }
