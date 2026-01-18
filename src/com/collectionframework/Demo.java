@@ -12,11 +12,21 @@ public static void main(String[] args) {
 	l.add("Female");
 	l.add("Raisoni College");
 	l.add("1234567891");
-//	System.out.println(l);
+	System.out.println(l);
 	
-	ArrayList l2 = new ArrayList(l);
+	
+	
+	ArrayList l2 = new ArrayList();
+	l2.add("vik");
+	l2.add(24);
+	l2.add("male");
+	l2.add("Raisoni College");
+	l2.add("9876567891");
 	
 	System.out.println(l2);
+	
+	l.addAll(l2);
+	System.out.println(l);
 	
 }
 }
