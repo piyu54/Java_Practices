@@ -46,6 +46,7 @@ public static void main(String[] args) {
 	System.out.println(al2.remove("pune"));
 	System.out.println(al2);
 	System.out.println(al2.contains("kiran"));
+	System.out.println(al2);
 
 	
 }
