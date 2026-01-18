@@ -12,6 +12,11 @@ public static void main(String[] args) {
 	l.add("Female");
 	l.add("Raisoni College");
 	l.add("1234567891");
-	System.out.println(l);
+//	System.out.println(l);
+	
+	ArrayList l2 = new ArrayList(l);
+	
+	System.out.println(l2);
+	
 }
 }
