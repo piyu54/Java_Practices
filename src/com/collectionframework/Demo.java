@@ -29,5 +29,24 @@ public static void main(String[] args) {
 	l.addAll(l2);
 	System.out.println(l);
 	
+	//program for demonstrate method of arraylist
+	
+	ArrayList al2 = new ArrayList();
+	al2.add("mumbai"); // 0th index
+	al2.add("pune"); // 1st index
+	al2.add(20); // 2nd index
+	al2.add("bangalore"); // 4rd index
+	al2.add(50); // 5th index
+	al2.add(3, "piyu");//3rd index specific
+
+	System.out.println(al2);
+	// to get the specific elements
+	System.out.println(al2.get(3));
+	// to remove the elements
+	System.out.println(al2.remove("pune"));
+	System.out.println(al2);
+	System.out.println(al2.contains("kiran"));
+
+	
 }
 }
