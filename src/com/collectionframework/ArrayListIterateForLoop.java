@@ -1,0 +1,25 @@
+package com.collectionframework;
+
+import java.util.ArrayList;
+
+public class ArrayListIterateForLoop {
+/*Design generic arraylist for integer and iterate them 
+	 * using for each loop or for enhanced loop
+	 */
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(10);
+		al.add(20);
+		al.add(30);
+		al.add(40);
+		al.add(50);
+		al.add(60);
+		
+		for(int i:al)
+		{
+			System.out.println(i);
+		}
+	}
+}
