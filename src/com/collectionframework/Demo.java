@@ -7,6 +7,7 @@ public class Demo {
 public static void main(String[] args) {
 	
 	ArrayList l = new ArrayList();
+	//add is use to add elements at end
 	l.add("piyu");
 	l.add(24);
 	l.add("Female");
@@ -24,7 +25,7 @@ public static void main(String[] args) {
 	l2.add("9876567891");
 	
 	System.out.println(l2);
-	
+	//this use to add all elements to another
 	l.addAll(l2);
 	System.out.println(l);
 	
