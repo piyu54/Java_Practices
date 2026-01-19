@@ -18,10 +18,12 @@ public class LinkedListInteger {
 		l.addFirst(00);
 		l.addLast(100);
 		
+		System.out.println("Direct Way");
 		System.out.println(l);//firstway
 		
 		System.out.println(l.get(5));//index
-		
+		System.out.println("-------------------------");
+		System.out.println("Using Iterator");
 		//second way
 		Iterator<Integer> itr=l.iterator();
 		while(itr.hasNext()) {
@@ -29,6 +31,7 @@ public class LinkedListInteger {
 		}
 		
 		//third way
+		System.out.println("-------------------------");
 		System.out.println("Using for each");
 		
 		for (int i : l) {
