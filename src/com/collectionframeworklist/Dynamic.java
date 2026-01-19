@@ -1,4 +1,4 @@
-package com.collectionframework;
+package com.collectionframeworklist;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -18,6 +18,9 @@ public class Dynamic {
 			al.add(mobile);
 		}
 
+		for (String string : al) {
+			System.out.println(string);
+		}
 		
 		
 	}
