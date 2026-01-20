@@ -7,7 +7,7 @@ public class TreeSetDemo {
 
 	public static void main(String[] args) {
 		
-		TreeSet<Integer> ts=new TreeSet<Integer>();
+		TreeSet ts=new TreeSet();
 		//insertion order is follow
 		//duplicate not allowed
 		// null not allowed
