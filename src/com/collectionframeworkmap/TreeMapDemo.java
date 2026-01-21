@@ -7,7 +7,7 @@ public class TreeMapDemo {
 
 	public static void main(String[] args) {
 		TreeMap<Integer,String> lhm=new TreeMap<Integer,String>();
-		//follow insertion order
+		//key order follow
 		//key should be unique
 		//value can be duplicate
 		//null key cant accepted
