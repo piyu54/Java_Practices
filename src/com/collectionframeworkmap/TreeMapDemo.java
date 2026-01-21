@@ -10,7 +10,7 @@ public class TreeMapDemo {
 		//key order follow
 		//key should be unique
 		//value can be duplicate
-		//null key cant accepted
+		//null key cant accepted exception
 //		value can be null 
 		lhm.put(1, "priya");
 		lhm.put(2, "sakshi");
