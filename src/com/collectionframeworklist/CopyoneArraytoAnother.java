@@ -16,9 +16,11 @@ public class CopyoneArraytoAnother {
 		al2.add(50);
 		al2.add(60);
 		
-		al.addAll(al2);
+//		al.addAll(al2);
+		//50 60 10 20 30 40
+		al2.addAll(al);
 		
-		System.out.println(al);
+		System.out.println(al2);
 
 	}
 

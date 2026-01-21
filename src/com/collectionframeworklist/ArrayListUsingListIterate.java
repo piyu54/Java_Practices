@@ -40,7 +40,8 @@ public class ArrayListUsingListIterate {
 			System.out.println(itr3.nextElement());
 		}
 		
-		//enumeration not allowed in linkedlist,arraylist
+		//enumeration  allowed in vector bec it has thread safe and not allowed in 
+		//linkedlist,arraylist
 	}
 
 }

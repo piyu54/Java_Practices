@@ -15,6 +15,7 @@ public class LinkedHashSetDemo {
 		lhs.add(null);
 		lhs.add("priya");
 		lhs.add(50);
+		lhs.add("");//one allowed
 		
 		System.out.println(lhs);
 		

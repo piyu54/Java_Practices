@@ -15,11 +15,17 @@ public class ArrayListIterateUsingIterator {
 		al.add(50);
 		al.add(60);
 		
-		Iterator<Integer> itr = al.iterator();
+		Iterator<Integer> itr=al.iterator();
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
 		}
+		
+//		Iterator<Integer> itr = al.iterator();
+//		while(itr.hasNext())
+//		{
+//			System.out.println(itr.next());
+//		}
 		
 	}
 }

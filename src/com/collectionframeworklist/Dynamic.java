@@ -18,8 +18,8 @@ public class Dynamic {
 			al.add(mobile);
 		}
 
-		for (String string : al) {
-			System.out.println(string);
+		for (String s : al) {
+			System.out.println(s);
 		}
 		
 		

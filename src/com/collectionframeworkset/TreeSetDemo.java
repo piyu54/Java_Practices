@@ -15,7 +15,7 @@ public class TreeSetDemo {
 		ts.add(10);
 //		ts.add("priya");
 		ts.add(20);
-//		ts.add(null);
+//		ts.add(null);//error
 //		ts.add(null);
 //		ts.add("sakshi");
 //		ts.add(50);
