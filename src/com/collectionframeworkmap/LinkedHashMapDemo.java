@@ -13,6 +13,8 @@ public class LinkedHashMapDemo {
 		lhm.put(4, "piu");
 		lhm.put(5, "sneha");
 		
+		System.out.println(lhm);
+		
 	}
 
 }
