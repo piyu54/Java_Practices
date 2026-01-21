@@ -17,7 +17,7 @@ public class ArrayListIterateForLoop {
 		al.add(50);
 		al.add(60);
 		
-		for(int i:al)
+		for(Integer i:al)
 		{
 			System.out.println(i);
 		}
