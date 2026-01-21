@@ -11,7 +11,7 @@ public class LinkedHashMapDemo {
 		lhm.put(1, "priya");
 		lhm.put(3, "piyu");
 		lhm.put(4, "piu");
-		lhm.put(4, "piu");
+		lhm.put(5, "sneha");
 		
 	}
 
