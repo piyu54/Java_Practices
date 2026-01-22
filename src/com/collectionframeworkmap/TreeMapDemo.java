@@ -1,6 +1,7 @@
 package com.collectionframeworkmap;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.TreeMap;
 
 public class TreeMapDemo {
@@ -20,6 +21,11 @@ public class TreeMapDemo {
 		lhm.put(5, "sneha");
 //		lhm.put(null, "null");
 		lhm.put(7, "null");
-		System.out.println(lhm);
+//		System.out.println(lhm);
+		
+		for (Map.Entry<Integer, String> s :lhm.entrySet()) {
+			System.out.println(s.getKey() +" "+s.getValue());
+			
+		}
 	}
 }
