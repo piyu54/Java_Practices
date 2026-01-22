@@ -1,6 +1,7 @@
 package com.collectionframeworkmap;
 
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class LinkedHashMapDemo {
 	
@@ -20,8 +21,11 @@ public class LinkedHashMapDemo {
 		lhm.put(null, "null");
 //		lhm.put(null, "null");
 		
-		System.out.println(lhm);
-		
+//		System.out.println(lhm);
+		for (Map.Entry<Integer, String> s :lhm.entrySet()) {
+			System.out.println(s.getKey() +" "+s.getValue());
+			
+		}
 	}
 
 }
