@@ -1,8 +1,10 @@
 package com.collectionframeworkmap;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 
 public class HashMapDemo {
 
@@ -26,9 +28,18 @@ public class HashMapDemo {
 		
 //		System.out.println(hm);
 		
-		for (Map.Entry<Integer, String> s :hm.entrySet()) {
-			System.out.println(s.getKey() +" "+s.getValue());
-			
+//		for (Map.Entry<Integer, String> s :hm.entrySet()) {
+//			System.out.println(s.getKey() +" "+s.getValue());
+//			
+//		}
+		Set<Integer> s = hm.keySet(); 
+		Iterator<Integer> itr = s.iterator(); //itr - 15 20 25
+		while (itr.hasNext()) {
+			Integer i = itr.next();
+			System.out.println("key>>" + i); //15
+			System.out.println("value>>" + hm.get(i));
 		}
+
+		
 	}
 }
