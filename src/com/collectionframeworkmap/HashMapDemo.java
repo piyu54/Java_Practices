@@ -38,7 +38,7 @@ public class HashMapDemo {
 			Integer i = itr.next();
 			System.out.println("key>>" + i); //15
 			System.out.println("value>>" + hm.get(i));
-			//
+			
 		}
 
 		
