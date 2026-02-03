@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class CopyoneArraytoAnother {
 //copy one arraylist into another arraylist- int type
-
+//
 	public static void main(String[] args) {
 	
 		ArrayList<Integer> al= new ArrayList<Integer>();
