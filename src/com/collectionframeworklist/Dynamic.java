@@ -7,7 +7,7 @@ public class Dynamic {
 //program for dynamic approach
 
 	public static void main(String[] args) {
-		
+		//
 		ArrayList<String> al = new ArrayList<String>();
 		
 		for (int i = 1; i <= 2; i++) {
