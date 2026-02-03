@@ -6,6 +6,7 @@ public class ArrayListIterateForLoop {
 /*Design generic arraylist for integer and iterate them 
 	 * using for each loop or for enhanced loop
 	 */
+	//
 
 	public static void main(String[] args) {
 		
