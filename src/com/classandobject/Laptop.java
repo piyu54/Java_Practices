@@ -1,5 +1,5 @@
 package com.classandobject;
-
+//
 public class Laptop {
 	/*Q1. Create a class Laptop
 Variables → brand, ram
