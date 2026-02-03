@@ -1,6 +1,6 @@
 package com.arrayoperations2d;
 
-//2D
+//2D array
 public class Array {
 
 	public static void main(String[] args) {
