@@ -40,7 +40,7 @@ public class HashMapDemo {
 			System.out.println("value>>" + hm.get(i));
 			
 		}
-		//
+		
 
 		
 	}
