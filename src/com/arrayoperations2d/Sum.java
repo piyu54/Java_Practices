@@ -4,7 +4,7 @@ public class Sum {
 
 	public static void main(String[] args) {
 		//sum of arrays
-		
+		//
 		int[][] arr = { { 1, 2, 3 }, { 4, 6, 7 } };
 
 		int sum=0;
