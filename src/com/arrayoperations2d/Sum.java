@@ -1,7 +1,7 @@
 package com.arrayoperations2d;
 
 public class Sum {
-
+/
 	public static void main(String[] args) {
 		//sum of arrays
 		
